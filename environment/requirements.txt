@@ -48,8 +48,6 @@ lockfile==0.12.2
 Markdown==3.0.1
 matplotlib==3.0.2
 more-itertools==4.3.0
-git+https://github.com/hartikainen/mujoco-py.git@435d2143abe04fe4648c6c0c1b848bf1fc06b73b
-git+https://github.com/vitchyr/multiworld.git@d76b3dae2e8cbca02924f93d6cc0239c552f6408
 networkx==2.2
 numpy==1.15.4
 pandas==0.23.4
@@ -82,7 +80,6 @@ s3transfer==0.1.13
 scikit-image==0.14.2
 scikit-learn==0.20.1
 scipy==1.1.0
-git+https://github.com/hartikainen/serializable.git@76516385a3a716ed4a2a9ad877e2d5cbcf18d4e6
 setproctitle==1.1.10
 six==1.11.0
 smmap2==2.0.5
@@ -95,3 +92,7 @@ toolz==0.9.0
 uritemplate==3.0.0
 urllib3==1.24.2
 Werkzeug==0.15.3
+mujoco-py==1.50.1.*
+#git+https://github.com/hartikainen/mujoco-py.git@435d2143abe04fe4648c6c0c1b848bf1fc06b73b
+git+https://github.com/vitchyr/multiworld.git@d76b3dae2e8cbca02924f93d6cc0239c552f6408
+git+https://github.com/hartikainen/serializable.git@76516385a3a716ed4a2a9ad877e2d5cbcf18d4e6
